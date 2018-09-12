@@ -24,6 +24,17 @@
  - Create Customer, CustomerRepository, and CustomerService classes  
  - Implement interfaces for CustomerRepository and CustomerService  
  - Create Application
+ - Add Spring configuration by adding dependencies in pom.xml:  
+ `
+     <dependencies>
+         <dependency>
+             <groupId>org.springframework</groupId>
+             <artifactId>spring-context</artifactId>
+             <version>4.3.2.RELEASE</version>
+         </dependency>
+     </dependencies>
+ `
+ 
  
  ### Sources
  - [pluralsight](https://www.pluralsight.com/)
