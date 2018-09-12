@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import com.projects.model.Customer;
 
-public class HibernateCustomerRepositoryImpl {
+public class HibernateCustomerRepositoryImpl implements CustomerRepository {
     public List<Customer> findAll() {
         List<Customer> customers = new ArrayList<Customer>();
         Customer customer = new Customer();
@@ -14,4 +14,5 @@ public class HibernateCustomerRepositoryImpl {
         customers.add(customer);
         return customers;
     }
+
 }
